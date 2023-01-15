@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "v17.3.0"
+  }
+}
