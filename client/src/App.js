@@ -20,14 +20,6 @@ function App() {
         <p>
 	  {data ? data: "This site is loading... :)"}
         </p>
-        <p><a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a></p>
       </header>
     </div>
   );

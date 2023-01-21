@@ -11,7 +11,7 @@ exps.use(express.static(path.resolve(__dirname, '../client/build')));
 
 // Handle API requests
 exps.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+  res.json({ message: "Trison Nguyen :)" });
 });
 
 exps.get('*', (req, res) => {
