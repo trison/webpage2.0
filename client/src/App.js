@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-	  {!data ? "This site is loading... :)" : data}
+	  {data ? data: "This site is loading... :)"}
         </p>
         <p><a
           className="App-link"
