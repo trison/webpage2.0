@@ -7,6 +7,9 @@
 rm -rf node_modules
 rm package-lock.json
 
+# Clean npm cache
+npm cache clean --force
+
 # Explicitly use Node 18
 npm install react@18 react-dom@18
 
